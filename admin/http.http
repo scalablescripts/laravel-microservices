@@ -1,0 +1,22 @@
+###
+
+# curl 'http://localhost:8000/api/products'
+#  -H 'Connection: keep-alive'
+#  -H 'User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.80 Safari/537.36'
+#  -H 'Content-Type: text/plain;charset=UTF-8'
+#  -H 'Accept: */*'
+#  -H 'Origin: http://localhost:3000'
+#  -H 'Sec-Fetch-Site: same-site'
+#  -H 'Sec-Fetch-Mode: cors'
+#  -H 'Sec-Fetch-Dest: empty'
+#  -H 'Referer: http://localhost:3000/'
+#  -H 'Accept-Language: en-US,en;q=0.9,sq;q=0.8,de;q=0.7'
+#  --data-binary '{"title":"e","image":"e"}'
+#  --compressed
+POST http://localhost:8000/api/products
+Content-Type: application/json
+
+{"title":"e","image":"e"}
+
+###
+
